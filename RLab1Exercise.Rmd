@@ -2,7 +2,8 @@
 title: "DS311 - Basic R Lab Exercise"
 author: "Leslie Contreras"
 date: "2024-10-15"
-output: html_document
+output: 
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -29,19 +30,8 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
----
-  title: "DS311 - Basic R Lab Exercise"
-author: "Leslie Contreras"
-date: "10/15/2024"
-output:
-  pdf_document: default
-html_document: default
-subtitle: R Lab Exercise
----
-  
-  ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
+
 
 # Basic R Exercise
 
@@ -113,7 +103,7 @@ paste("char Type: ", typeof(num), " | charToNum: ", typeof(numToChar))
 
 Complete the following tasks:
   
-  ``` {r}
+``` {r}
 # Check the data type of the following variables
 a <- as.integer(500)
 b <- as.double(500)

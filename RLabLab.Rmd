@@ -243,6 +243,7 @@ ggplot(housingData, aes(x = Estimated.Expense, y = Net.Operating.Income)) +
 
 c. Write a summary about your findings from this exercise.
 
+The plots show a clear positive relationship between the size of a property and its market value—larger properties tend to be worth more. Properties that earn more income also have a higher market value. Lastly, while properties with higher expenses also tend to generate more income, the relationship is not as strong as with the othe
 
 => Enter your answer here!
 

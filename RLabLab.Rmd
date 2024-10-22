@@ -166,11 +166,6 @@ Result:
 The pairs plot shows that murder and assault rates are positively correlated, meaning states with more murders also have more assaults. However, the urban population (UrbanPop) does not show a strong relationship with any crime rates. The relationship between rape and other crimes is weaker but still slightly positive. Overall, murder and assault are more closely related, while urban population does not appear to influence crime rates significantly.
 
 
-
-
-
-
-
 => Report a paragraph to summarize your findings from the plot!
 
 

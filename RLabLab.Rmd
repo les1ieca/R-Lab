@@ -2,16 +2,19 @@
 title: "DS311 - R Lab Assignment"
 author: "Leslie Contreras"
 date: "`r Sys.Date()`"
-output: 
+output:
   html_document:
     theme: united
     highlight: tango
     df_print: paged
+  pdf_document: default
 ---
 
-```{r setup, include=FALSE}
+``````{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
+library(ggplot2)
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+``````
 
 ## R Assignment 1
 
